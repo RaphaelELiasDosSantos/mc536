@@ -1,0 +1,4 @@
+driverClassName =com.mysql.jdbc.Driver
+connectionUrl =jdbc:mysql://127.0.0.1:3306/aula3
+dbUser =root
+dbPwd =root

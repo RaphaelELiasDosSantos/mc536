@@ -1,6 +1,10 @@
 package application;
 
 public class Constants {
+	
+	/**
+	 * Persistence constants.
+	 */
 	public static final String BANDA_TABLE_NAME          = "banda";
 	public static final String BANDA_TABLE_ID_FIELD_NAME = "id";
 	public static final String BANDA_TABLE_FIELDS_NAME   = "(id_atos_musicais)";	
@@ -36,12 +40,13 @@ public class Constants {
 	public static final int ID_GENERO_VAZIO = 1;
 	
 	/**
-	 * XML Path 
+	 * Files Path 
 	 */
-	public static String XML_PERSONS_PATH = "/home/seven/workspace/RedeSocial/xml/persons.xml";
-	public static String XML_KNOWS_PATH = "/home/seven/workspace/RedeSocial/xml/knows.xml";
-	public static String XML_LIKES_MOVIES_PATH = "/home/seven/workspace/RedeSocial/xml/likesMovie.xml";
-	public static String XML_LIKES_MUSIC_PATH = "/home/seven/workspace/RedeSocial/xml/likesMusic.xml";
+	public static String XML_PERSONS_PATH = "/RedeSocial/xml/persons.xml";
+	public static String XML_KNOWS_PATH = "/RedeSocial/xml/knows.xml";
+	public static String XML_LIKES_MOVIES_PATH = "/RedeSocial/xml/likesMovie.xml";
+	public static String XML_LIKES_MUSIC_PATH = "/RedeSocial/xml/likesMusic.xml";
+	public static String CONFIG_FILE_PATH = "configFile";
 	
 	
 	/**

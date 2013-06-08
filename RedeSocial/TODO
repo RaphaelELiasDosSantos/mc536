@@ -1,0 +1,20 @@
+- Trocar os locales. Ao encontrar um locale, substitui-lo pelo locale.getCountry();
+- Salvar genero do filme.
+- salvar estilo musical.
+- Completar a base de dados.
+- criar método que limpa a base.
+
+
+- usar vagalume para busca de artistas recomendados.
+- Musica:
+	- Vagalume
+	- MusicBrainz
+	- Echo Nest
+	
+- Filme:
+	- Rovi
+	-
+	-
+
+- usar bing maps para encontrar os locales.
+

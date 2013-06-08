@@ -4,8 +4,8 @@ import application.Constants;
 
 public class Locale implements IRecordable {
 	private int id;
-	private double longitude, latitude;
-	private String locale;
+	private double longitude, latitude;	
+	private String locale, gnCountry, gnName;
 	
 	public Locale(String locale) {
 		super();
@@ -82,6 +82,22 @@ public class Locale implements IRecordable {
 	@Override
 	public String getRecordId() {		
 		return String.valueOf(this.id);
+	}
+
+	public String getGnCountry() {
+		return gnCountry;
+	}
+
+	public void setGnCountry(String gnCountry) {
+		this.gnCountry = gnCountry;
+	}
+
+	public String getGnName() {
+		return gnName;
+	}
+
+	public void setGnName(String gnName) {
+		this.gnName = gnName;
 	}
 
 }

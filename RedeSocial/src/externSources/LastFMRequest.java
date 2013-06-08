@@ -47,10 +47,4 @@ public class LastFMRequest implements IRequest<MusicalAct> {
 		}		
 		System.out.printf("ok:%d nok:%d\n", ok, nok);
 	}
-
-	@Override
-	public void findAlternativeInformation(MusicalAct t) {
-		
-	}
-
 }

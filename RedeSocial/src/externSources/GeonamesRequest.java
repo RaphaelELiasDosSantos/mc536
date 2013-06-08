@@ -10,6 +10,12 @@ import org.geonames.WebService;
 
 import valueObjects.Locale;
 
+
+/**
+ * Class that provide to the application access to Geonames informations.
+ * Here, a wrapper is used to do it.
+ * @author André Pinheiro Borba 
+ */
 public class GeonamesRequest implements IRequest<Locale> {
 
 	@Override
@@ -30,7 +36,9 @@ public class GeonamesRequest implements IRequest<Locale> {
 			
 			if(toponym != null){
 				l.setLatitude(toponym.getLatitude());
-				l.setLongitude(toponym.getLongitude());				
+				l.setLongitude(toponym.getLongitude());
+				l.setGnCountry(toponym.getCountryName());
+				l.setGnName(toponym.getName());
 			}
 		}	
 	}
@@ -46,12 +54,4 @@ public class GeonamesRequest implements IRequest<Locale> {
 			}
 		}		
 	}
-	
-	
-	@Override
-	public void findAlternativeInformation(Locale t) {
-		
-		
-	}
-
 }

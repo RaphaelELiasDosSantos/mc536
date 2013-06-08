@@ -17,9 +17,4 @@ public class OmdbRequest implements IRequest<Film> {
 
 		
 	}
-
-	@Override
-	public void findAlternativeInformation(Film film) {		
-	}
-
 }

@@ -77,12 +77,6 @@ public class ImdbRequest implements IRequest<Film> {
 		}		
 	}
 
-	@Override
-	public void findAlternativeInformation(Film filme) {
-		
-		
-	}
-	
 	private void handleJSONData(Film f, JSONObject jobj){
 		try{
 			if(jobj != null){

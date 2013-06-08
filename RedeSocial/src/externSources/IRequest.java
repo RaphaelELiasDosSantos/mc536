@@ -13,6 +13,5 @@ import valueObjects.IRecordable;
  */
 public interface IRequest<T> {
 	public void findBasicInformations(T t);
-	public void findBasicInformations (List<T> list);
-	public void findAlternativeInformation(T t);
+	public void findBasicInformations (List<T> list);	
 }

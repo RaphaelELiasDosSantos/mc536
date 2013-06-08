@@ -42,9 +42,4 @@ public class TheMovieDBRequest implements IRequest<Film> {
 			findBasicInformations(f);
 		}		
 	}
-
-	@Override
-	public void findAlternativeInformation(Film t) {		
-	}
-
 }
